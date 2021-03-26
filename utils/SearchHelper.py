@@ -28,7 +28,9 @@ def search(querypath, h5name, databasepath="data/data"):
     print('--------------------------')
     print('--------------------------')
     scores = np.dot(queryVec, feats.T)
+    print(scores)
     rank_ID = np.argsort(scores)[::-1]
+    print(rank_ID)
     rank_score = scores[rank_ID]
     print(rank_score)
 
