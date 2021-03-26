@@ -2,8 +2,6 @@
 #### 在data文件夹中创建data文件夹，将图片集放在data/data文件夹中
 
 ***
-####可在train.py中改变数据集文件名databasepath或训练输出数据库名h5name
-
 ``
     def trainh5(databasepath="data/data",h5name="database/result")
 ``
